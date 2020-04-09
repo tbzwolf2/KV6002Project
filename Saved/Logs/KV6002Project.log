@@ -913,3 +913,36 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.09-11.28.58:738][ 58]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.007
 [2020.04.09-11.28.58:797][ 58]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2020.04.09-11.28.58:798][ 58]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.04.09-11.32.25:321][423]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Chaser_AI/Behaviors/Get_Plyaer_Location.Get_Plyaer_Location
+[2020.04.09-11.32.26:145][423]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2020.04.09-11.32.28:930][423]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.09-11.32.29:263][424]LogSlate: Took 0.023628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.09-11.32.32:724][601]LogSlate: Window 'Get_Plyaer_Location' being destroyed
+[2020.04.09-11.32.32:737][601]LogSlate: Window 'Get_Plyaer_Location' being destroyed
+[2020.04.09-11.32.32:758][601]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-11.32.32:758][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-11.32.36:320][813]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Chaser_AI/ChaserAI_Controller.ChaserAI_Controller
+[2020.04.09-11.32.40:597][955]LogSlate: Window 'ChaserAI_Controller' being destroyed
+[2020.04.09-11.32.40:609][955]LogSlate: Window 'ChaserAI_Controller' being destroyed
+[2020.04.09-11.32.40:631][955]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-11.32.40:631][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-11.32.52:561][833]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Chaser_AI/Behaviors/Get_Plyaer_Location.Get_Plyaer_Location
+[2020.04.09-11.32.56:006][975]LogSlate: Window 'Get_Plyaer_Location' being destroyed
+[2020.04.09-11.32.56:017][975]LogSlate: Window 'Get_Plyaer_Location' being destroyed
+[2020.04.09-11.32.56:018][975]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-11.32.56:018][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-11.33.10:755][952]LogSlate: Window 'New Level' being destroyed
+[2020.04.09-11.33.10:769][952]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.09-11.33.10:814][952]LightingResults: New page: Lighting Build
+[2020.04.09-11.33.10:815][952]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.04.09-11.33.10:835][952]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-11.33.10:835][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-11.33.10:852][952]MapCheck: New page: Map Check
+[2020.04.09-11.33.10:852][952]LightingResults: New page: Lighting Build
+[2020.04.09-11.33.10:962][952]LogUObjectHash: Compacting FUObjectHashTables data took   9.16ms
+[2020.04.09-11.33.10:992][952]LogAIModule: Creating AISystem for world Untitled_1
+[2020.04.09-11.33.11:203][952]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-11.33.11:291][952]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2020.04.09-11.33.11:299][952]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-11.33.11:299][952]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
+[2020.04.09-11.33.11:299][952]LogFileHelpers: Loading map 'Template_Default' took 0.532
