@@ -1,0 +1,915 @@
+﻿Log file open, 04/09/20 12:26:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: KV6002Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.294473
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:739][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.09-11.26.40:739][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.09-11.26.40:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:740][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:753][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.09-11.26.40:753][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.09-11.26.40:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.09-11.26.40:755][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.09-11.26.40:756][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:756][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.09-11.26.40:757][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.09-11.26.40:757][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.09-11.26.40:757][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-11.26.40:757][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.09-11.26.40:763][  0]LogHAL: Display: Platform has ~ 16 GB [16609415168 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.09-11.26.40:763][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.09-11.26.40:764][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.09-11.26.40:764][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.09-11.26.40:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.09-11.26.40:766][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.09-11.26.40:767][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.09-11.26.40:768][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.09-11.26.40:768][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.09-11.26.40:768][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Guthub/KV6002Project/Saved/Config/Windows/Engine.ini]
+[2020.04.09-11.26.40:768][  0]LogInit: Computer: DESKTOP-VNKJLH4
+[2020.04.09-11.26.40:768][  0]LogInit: User: natha
+[2020.04.09-11.26.40:768][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.09-11.26.40:768][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.09-11.26.40:769][  0]LogMemory: Memory total: Physical=15.5GB (16GB approx)
+[2020.04.09-11.26.40:769][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.09-11.26.40:769][  0]LogMemory: Process Physical Memory: 104.71 MB used, 104.71 MB peak
+[2020.04.09-11.26.40:769][  0]LogMemory: Process Virtual Memory: 101.53 MB used, 101.53 MB peak
+[2020.04.09-11.26.40:769][  0]LogMemory: Physical Memory: 7979.76 MB used,  7860.21 MB free, 15839.97 MB total
+[2020.04.09-11.26.40:769][  0]LogMemory: Virtual Memory: 5159.30 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.04.09-11.26.40:774][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.09-11.26.40:815][  0]LogInit: Using OS detected language (en-GB).
+[2020.04.09-11.26.40:815][  0]LogInit: Using OS detected locale (en-GB).
+[2020.04.09-11.26.40:818][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.04.09-11.26.41:266][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.09-11.26.41:441][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.09-11.26.41:441][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.09-11.26.47:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-11.26.47:090][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.09-11.26.47:091][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.09-11.26.47:091][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.09-11.26.47:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.04.09-11.26.47:284][  0]LogD3D11RHI:       6052/0/7919 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.09-11.26.47:289][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.09-11.26.47:289][  0]LogD3D11RHI:       0/0/7919 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.09-11.26.47:289][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.09-11.26.47:309][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.09-11.26.47:309][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.09-11.26.47:309][  0]LogWindows: EnumDisplayDevices:
+[2020.04.09-11.26.47:309][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.04.09-11.26.47:310][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.04.09-11.26.47:311][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.09-11.26.47:311][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.09-11.26.47:312][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.09-11.26.47:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.04.09-11.26.47:312][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.04.09-11.26.47:312][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.04.09-11.26.47:312][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.09-11.26.47:450][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.09-11.26.47:450][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.09-11.26.47:477][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.09-11.26.48:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.09-11.26.48:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.09-11.26.48:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.09-11.26.48:339][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.09-11.26.48:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.09-11.26.48:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.09-11.26.48:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.09-11.26.48:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.09-11.26.48:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.09-11.26.48:457][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.09-11.26.48:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.09-11.26.48:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.09-11.26.48:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.09-11.26.48:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.09-11.26.48:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.09-11.26.48:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.09-11.26.48:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.09-11.26.48:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.09-11.26.48:640][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.09-11.26.48:647][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.09-11.26.48:778][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (D:/Guthub/KV6002Project/Intermediate/Shaders/WorkingDirectory/14408/).
+[2020.04.09-11.26.48:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/natha/AppData/Local/Temp/UnrealShaderWorkingDir/A0CDB3904D8C1844B44D00B32911892C/'.
+[2020.04.09-11.26.48:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.09-11.26.48:780][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.09-11.26.48:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.09-11.26.58:701][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.09-11.26.59:007][  0]LogDerivedDataCache: Loaded boot cache 0.31s 78MB C:/Users/natha/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.09-11.26.59:007][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/natha/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.09-11.26.59:008][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Guthub/KV6002Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.09-11.26.59:008][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.09-11.26.59:008][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Guthub/KV6002Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-11.26.59:008][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.09-11.26.59:036][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.09-11.26.59:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-11.26.59:036][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.09-11.26.59:039][  0]LogDerivedDataCache: Using Local data cache path C:/Users/natha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.09-11.26.59:039][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.09-11.26.59:039][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.09-11.26.59:107][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.09-11.26.59:115][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.09-11.26.59:155][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.09-11.26.59:332][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2020.04.09-11.27.00:077][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-11.27.00:546][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.09-11.27.00:546][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.09-11.27.00:546][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.09-11.27.00:546][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.09-11.27.00:546][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.09-11.27.00:578][  0]LogNetVersion: KV6002Project 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1127562572)
+[2020.04.09-11.27.03:289][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.092257 seconds
+[2020.04.09-11.27.03:306][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.09-11.27.03:307][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.09-11.27.03:307][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.09-11.27.04:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.09-11.27.04:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.09-11.27.04:881][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.04:881][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.04:883][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.04:885][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.04:887][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.05:111][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.09-11.27.05:184][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.09-11.27.05:184][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.09-11.27.05:425][  0]LogOcInput: OculusInput pre-init called
+[2020.04.09-11.27.05:444][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.09-11.27.05:444][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.09-11.27.05:727][  0]LogEngine: Initializing Engine...
+[2020.04.09-11.27.05:729][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-11.27.05:732][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.04.09-11.27.06:650][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.09-11.27.06:665][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.09-11.27.06:690][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.09-11.27.06:690][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.09-11.27.06:691][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.09-11.27.06:691][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.09-11.27.06:734][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.09-11.27.06:734][  0]LogAudioMixer: Display: Name: Speakers (2- High Definition Audio Device)
+[2020.04.09-11.27.06:734][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: Channel Count Used: 6
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: Device Channel Count: 6
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.04.09-11.27.06:735][  0]LogAudioMixer: Display: 5: BackRight
+[2020.04.09-11.27.06:775][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- High Definition Audio Device)
+[2020.04.09-11.27.06:784][  0]LogInit: FAudioDevice initialized.
+[2020.04.09-11.27.06:785][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.09-11.27.07:233][  0]LogDerivedDataCache: Saved boot cache 0.45s 78MB C:/Users/natha/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.09-11.27.07:242][  0]LogInit: Texture streaming: Enabled
+[2020.04.09-11.27.07:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.09-11.27.07:264][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.09-11.27.07:268][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.09-11.27.07:331][  0]LogInit: Transaction tracking system initialized
+[2020.04.09-11.27.07:354][  0]BlueprintLog: New page: Editor Load
+[2020.04.09-11.27.07:424][  0]LocalizationService: Localization service is disabled
+[2020.04.09-11.27.08:388][  0]LogFileCache: Scanning file cache for directory 'D:/Guthub/KV6002Project/Content/' took 0.01s
+[2020.04.09-11.27.08:388][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.09-11.27.08:388][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.09-11.27.10:051][  0]SourceControl: Source control is disabled
+[2020.04.09-11.27.10:196][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.24/FeaturePacks/StarterContent.upack)
+[2020.04.09-11.27.10:475][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.04.09-11.27.10:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.04.09-11.27.10:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.04.09-11.27.10:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.04.09-11.27.10:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.04.09-11.27.10:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.04.09-11.27.11:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.04.09-11.27.11:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.04.09-11.27.11:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.04.09-11.27.11:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.04.09-11.27.11:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.04.09-11.27.11:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.04.09-11.27.11:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.04.09-11.27.11:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.04.09-11.27.11:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.04.09-11.27.11:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.04.09-11.27.11:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.04.09-11.27.11:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.04.09-11.27.11:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Fire01.uasset"
+[2020.04.09-11.27.11:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.04.09-11.27.11:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.04.09-11.27.11:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.04.09-11.27.11:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Light01.uasset"
+[2020.04.09-11.27.11:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.04.09-11.27.11:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Light02.uasset"
+[2020.04.09-11.27.11:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.04.09-11.27.12:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.04.09-11.27.12:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.04.09-11.27.12:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.04.09-11.27.12:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.04.09-11.27.12:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.04.09-11.27.12:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.04.09-11.27.12:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.04.09-11.27.12:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.04.09-11.27.12:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Steam01.uasset"
+[2020.04.09-11.27.12:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.04.09-11.27.12:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.04.09-11.27.12:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.04.09-11.27.12:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.04.09-11.27.12:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.04.09-11.27.12:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.04.09-11.27.12:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.04.09-11.27.12:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.04.09-11.27.12:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.04.09-11.27.12:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.04.09-11.27.12:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.04.09-11.27.12:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.04.09-11.27.13:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.04.09-11.27.13:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.04.09-11.27.13:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.04.09-11.27.13:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.04.09-11.27.13:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.04.09-11.27.14:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.04.09-11.27.14:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.04.09-11.27.14:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.04.09-11.27.14:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.04.09-11.27.14:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.04.09-11.27.14:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/StarterMap.umap"
+[2020.04.09-11.27.15:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.04.09-11.27.15:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.04.09-11.27.15:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.04.09-11.27.15:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.04.09-11.27.15:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.04.09-11.27.15:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.04.09-11.27.15:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.04.09-11.27.15:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.04.09-11.27.15:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.04.09-11.27.15:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.04.09-11.27.15:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.04.09-11.27.15:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.04.09-11.27.15:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.04.09-11.27.15:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.04.09-11.27.16:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.04.09-11.27.16:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.04.09-11.27.16:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.04.09-11.27.16:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.04.09-11.27.16:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.04.09-11.27.16:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.04.09-11.27.16:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.04.09-11.27.16:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.04.09-11.27.16:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.04.09-11.27.16:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.04.09-11.27.16:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.04.09-11.27.16:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.04.09-11.27.16:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.04.09-11.27.16:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.04.09-11.27.16:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.04.09-11.27.17:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.04.09-11.27.17:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.04.09-11.27.17:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.04.09-11.27.17:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.04.09-11.27.17:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.04.09-11.27.17:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.04.09-11.27.17:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.04.09-11.27.17:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.04.09-11.27.17:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.04.09-11.27.17:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.04.09-11.27.17:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.04.09-11.27.17:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.04.09-11.27.17:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.04.09-11.27.17:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.04.09-11.27.17:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.04.09-11.27.17:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.04.09-11.27.17:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.04.09-11.27.17:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.04.09-11.27.17:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.04.09-11.27.17:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.04.09-11.27.17:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.04.09-11.27.18:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.04.09-11.27.18:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.04.09-11.27.18:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.04.09-11.27.18:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.04.09-11.27.18:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.04.09-11.27.18:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.04.09-11.27.18:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.04.09-11.27.18:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.04.09-11.27.18:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.04.09-11.27.18:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.04.09-11.27.18:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.04.09-11.27.18:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.04.09-11.27.18:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.04.09-11.27.18:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.04.09-11.27.18:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.04.09-11.27.18:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Door.uasset"
+[2020.04.09-11.27.18:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.04.09-11.27.18:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.04.09-11.27.18:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.04.09-11.27.18:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.04.09-11.27.18:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.04.09-11.27.19:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.04.09-11.27.19:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.04.09-11.27.19:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.04.09-11.27.19:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.04.09-11.27.19:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.04.09-11.27.19:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.04.09-11.27.19:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.04.09-11.27.19:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.04.09-11.27.19:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.04.09-11.27.19:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.04.09-11.27.19:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.04.09-11.27.19:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.04.09-11.27.19:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.04.09-11.27.19:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.04.09-11.27.19:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.04.09-11.27.19:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.04.09-11.27.19:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.04.09-11.27.19:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.04.09-11.27.19:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.04.09-11.27.19:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.04.09-11.27.19:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.04.09-11.27.19:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.04.09-11.27.20:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.04.09-11.27.20:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.04.09-11.27.20:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.04.09-11.27.20:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.04.09-11.27.20:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.04.09-11.27.20:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.04.09-11.27.20:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.04.09-11.27.20:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.04.09-11.27.20:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.04.09-11.27.20:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.04.09-11.27.20:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.04.09-11.27.20:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.04.09-11.27.20:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.04.09-11.27.20:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.04.09-11.27.20:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.04.09-11.27.20:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.04.09-11.27.20:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.04.09-11.27.20:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.04.09-11.27.21:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.04.09-11.27.21:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.04.09-11.27.21:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.04.09-11.27.21:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.04.09-11.27.21:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.04.09-11.27.21:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.04.09-11.27.21:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.04.09-11.27.21:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.04.09-11.27.21:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.04.09-11.27.21:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.04.09-11.27.22:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.04.09-11.27.22:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.04.09-11.27.22:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.04.09-11.27.22:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.04.09-11.27.22:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.04.09-11.27.22:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.04.09-11.27.22:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.04.09-11.27.22:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.04.09-11.27.22:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.04.09-11.27.22:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.04.09-11.27.22:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.04.09-11.27.22:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.04.09-11.27.23:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.04.09-11.27.23:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.04.09-11.27.23:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.04.09-11.27.23:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.04.09-11.27.23:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.04.09-11.27.23:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.04.09-11.27.23:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.04.09-11.27.23:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.04.09-11.27.24:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.04.09-11.27.24:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.04.09-11.27.24:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.04.09-11.27.24:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.04.09-11.27.24:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.04.09-11.27.24:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.04.09-11.27.24:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.04.09-11.27.24:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.04.09-11.27.24:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.04.09-11.27.24:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.04.09-11.27.25:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.04.09-11.27.25:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.04.09-11.27.25:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.04.09-11.27.25:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.04.09-11.27.25:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.04.09-11.27.25:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.04.09-11.27.25:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.04.09-11.27.25:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.04.09-11.27.25:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.04.09-11.27.26:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.04.09-11.27.26:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.04.09-11.27.26:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.04.09-11.27.26:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.04.09-11.27.26:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.04.09-11.27.26:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.04.09-11.27.26:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.04.09-11.27.27:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.04.09-11.27.27:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.04.09-11.27.27:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.04.09-11.27.27:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.04.09-11.27.27:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.04.09-11.27.27:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.04.09-11.27.27:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.04.09-11.27.27:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.04.09-11.27.27:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.04.09-11.27.27:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.04.09-11.27.28:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.04.09-11.27.28:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.04.09-11.27.28:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.04.09-11.27.28:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.04.09-11.27.28:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.04.09-11.27.28:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.04.09-11.27.28:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.04.09-11.27.28:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.04.09-11.27.29:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.04.09-11.27.29:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.04.09-11.27.29:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.04.09-11.27.29:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.04.09-11.27.29:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.04.09-11.27.29:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.04.09-11.27.29:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.04.09-11.27.29:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.04.09-11.27.29:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.04.09-11.27.29:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.04.09-11.27.29:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.04.09-11.27.29:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.04.09-11.27.29:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.04.09-11.27.29:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.04.09-11.27.29:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.04.09-11.27.29:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.04.09-11.27.29:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.04.09-11.27.30:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.04.09-11.27.30:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.04.09-11.27.30:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.04.09-11.27.30:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.04.09-11.27.30:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.04.09-11.27.30:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.04.09-11.27.30:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.04.09-11.27.30:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.04.09-11.27.30:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.04.09-11.27.30:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.04.09-11.27.30:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Guthub/KV6002Project/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.04.09-11.27.32:094][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-11.27.32:531][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2020.04.09-11.27.33:051][  0]LogSavePackage: Moving 'D:/Guthub/KV6002Project/Saved/Floor_400x40036E5BB16438346A3E72966BF921BE279.tmp' to 'D:/Guthub/KV6002Project/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.04.09-11.27.33:085][  0]LogFeaturePack: Warning: Inserted 2 feature packs
+[2020.04.09-11.27.33:097][  0]Cmd: MAP LOAD FILE="D:/Guthub/KV6002Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.09-11.27.33:107][  0]LightingResults: New page: Lighting Build
+[2020.04.09-11.27.33:109][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-11.27.33:109][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-11.27.33:109][  0]MapCheck: New page: Map Check
+[2020.04.09-11.27.33:109][  0]LightingResults: New page: Lighting Build
+[2020.04.09-11.27.33:192][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.04.09-11.27.36:398][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2020.04.09-11.27.37:459][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.09-11.27.38:149][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-11.27.38:308][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.04.09-11.27.38:318][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-11.27.38:319][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2020.04.09-11.27.38:319][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.222
+[2020.04.09-11.27.39:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-11.27.39:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-11.27.39:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-11.27.39:865][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-11.27.40:005][  0]LogCollectionManager: Loaded 0 collections in 0.004986 seconds
+[2020.04.09-11.27.40:447][  0]LogFileCache: Scanning file cache for directory 'D:/Guthub/KV6002Project/Saved/Collections/' took 0.00s
+[2020.04.09-11.27.40:447][  0]LogFileCache: Scanning file cache for directory 'D:/Guthub/KV6002Project/Content/Developers/natha/Collections/' took 0.00s
+[2020.04.09-11.27.40:447][  0]LogFileCache: Scanning file cache for directory 'D:/Guthub/KV6002Project/Content/Collections/' took 0.00s
+[2020.04.09-11.27.40:448][  0]LogContentBrowser: Native class hierarchy populated in 0.0234 seconds. Added 3015 classes and 717 folders.
+[2020.04.09-11.27.40:676][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.04.09-11.27.45:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.04.09-11.27.45:636][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.04.09-11.27.46:060][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2020.04.09-11.27.48:232][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.09-11.27.48:249][  0]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.09-11.27.48:347][  0]LogSlate: Took 0.023691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.09-11.27.49:348][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-11.27.50:494][  0]LogSlate: Took 0.062799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-11.27.50:915][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.04.09-11.27.50:915][  0]LogLoad: (Engine Initialization) Total time: 74.26 seconds
+[2020.04.09-11.27.50:915][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.09-11.27.50:973][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2020.04.09-11.27.50:973][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.04.09-11.27.51:240][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.09-11.28.01:670][ 39]LogAssetRegistry: Asset discovery search completed in 62.3399 seconds
+[2020.04.09-11.28.01:677][ 39]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2020.04.09-11.28.34:848][545]LogActorFactory: Actor Factory created Cube
+[2020.04.09-11.28.35:751][601]LogActorFactory: Actor Factory created Cube
+[2020.04.09-11.28.50:634][621]LogActorFactory: Actor Factory created Cylinder
+[2020.04.09-11.28.50:989][643]LogActorFactory: Actor Factory created Cylinder
+[2020.04.09-11.28.52:154][714]LogActorFactory: Actor Factory created Sphere
+[2020.04.09-11.28.52:456][733]LogActorFactory: Actor Factory created Sphere
+[2020.04.09-11.28.54:352][846]LogActorFactory: Actor Factory created Cone
+[2020.04.09-11.28.54:661][864]LogActorFactory: Actor Factory created Cone
+[2020.04.09-11.28.57:677][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.04.09-11.28.57:690][ 58]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-11.28.57:834][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.04.09-11.28.58:682][ 58]LogSavePackage: Moving 'D:/Guthub/KV6002Project/Saved/ThirdPersonExampleMapF50D74CC48E66BF3512F7DA3EC28E95B.tmp' to 'D:/Guthub/KV6002Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.04.09-11.28.58:738][ 58]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.007
+[2020.04.09-11.28.58:797][ 58]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.04.09-11.28.58:798][ 58]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
