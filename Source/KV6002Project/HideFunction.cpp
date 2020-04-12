@@ -20,11 +20,19 @@ void UHideFunction::BeginPlay()
 	Super::BeginPlay();
 	FString name = MeshTarget->GetName();
 	GetOwner()->GetComponents(ListOfMeshes);
-	if(ListofMeshs)
+	if(ListOfMeshes[0])
 	{
-		for(ListOfMeshes.GetAllocatedSize())
+		for(int i = 0;i<2;i++)
+		{
+			name = ListOfMeshes[i]->GetStaticMesh()->GetName();
+			FString ComparisonName = MeshTarget->GetName();
+			if(name==ComparisonName){
+			UE_LOG(LogTemp,Warning, TEXT("This has attached %s"), *name);
+			ListOfMeshes[i]->SetRelativeLocation();
+			}
+		}
 	}
-	UE_LOG(LogTemp,Warning, TEXT("This has attached %s"), *name);
+	UE_LOG(LogTemp,Warning, TEXT("Target Mesh is: %s"), *(MeshTarget->GetName()));
 	
 }
 

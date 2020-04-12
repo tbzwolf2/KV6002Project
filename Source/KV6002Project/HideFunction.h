@@ -15,7 +15,7 @@ class KV6002PROJECT_API UHideFunction : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UHideFunction();
-	TArray<UActorComponent*> ListOfMeshes;
+	TArray<UStaticMeshComponent*> ListOfMeshes;
 	UPROPERTY(EditAnywhere)
 	UStaticMesh* MeshTarget;
 protected:
