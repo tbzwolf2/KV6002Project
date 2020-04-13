@@ -26,13 +26,21 @@ void UHideFunction::BeginPlay()
 		{
 			name = ListOfMeshes[i]->GetStaticMesh()->GetName();
 			FString ComparisonName = MeshTarget->GetName();
-			if(name==ComparisonName){
-			UE_LOG(LogTemp,Warning, TEXT("This has attached %s"), *name);
-			ListOfMeshes[i]->SetRelativeLocation();
+			if(name==ComparisonName)
+			{
+				UE_LOG(LogTemp,Warning, TEXT("This has attached %s"), *name);
+				InitialLocation = ListOfMeshes[i]->GetRelativeLocation();
+				NewX = InitialLocation.X + TranslatorX;
+				NewY = InitialLocation.Y + TranslatorY;
+				NewZ = InitialLocation.Z + TranslatorZ;
+				UE_LOG(LogTemp,Warning, TEXT("Location of mesh is : %f, %f, %f"), NewX, NewY, NewZ);
+				//NewY = ListOfMeshes[i]->y + TranslatorY;
+				//NewZ = ListOfMeshes[i]->z + TranslatorZ;
+				ListOfMeshes[i]->SetRelativeLocation(FVector(NewX, NewY, NewZ));
 			}
 		}
-	}
-	UE_LOG(LogTemp,Warning, TEXT("Target Mesh is: %s"), *(MeshTarget->GetName()));
+	} 
+
 	
 }
 

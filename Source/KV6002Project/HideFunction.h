@@ -26,5 +26,18 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+private:
+	FVector InitialLocation;
+	float NewX;
+	float NewY;
+	float NewZ;
+	UPROPERTY(EditAnywhere)
+	float TranslatorX;
+	UPROPERTY(EditAnywhere)
+	float TranslatorY;
+	UPROPERTY(EditAnywhere)
+	float TranslatorZ;
+
+
 		
 };
