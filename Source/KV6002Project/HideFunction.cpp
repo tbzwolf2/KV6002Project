@@ -18,9 +18,27 @@ UHideFunction::UHideFunction()
 void UHideFunction::BeginPlay()
 {
 	Super::BeginPlay();
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 	FString name = MeshTarget->GetName();
+	//CollisionBox=GetOwner()->GetAttachActor();
 	GetOwner()->GetComponents(ListOfMeshes);
-	if(ListOfMeshes[0])
+	GetOwner()->GetComponents(ListOfBoxes);
+	for(int i = 0;i<ListOfMeshes.Num();i++)
+		{
+			FString MeshName = ListOfMeshes[i]->GetName();
+			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
+		}
+	for(int i = 0;i<ListOfBoxes.Num();i++)
+	{
+		FString SceneName = ListOfBoxes[i]->GetName();
+			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(SceneName));
+			if(SceneName==FString("Box"))
+			{
+				CollisionBox=ListOfBoxes[i];
+			}
+	}
+	/*if(ListOfMeshes[0])
 	{
 		for(int i = 0;i<2;i++)
 		{
@@ -40,6 +58,7 @@ void UHideFunction::BeginPlay()
 			}
 		}
 	} 
+	*/
 
 	
 }
@@ -49,7 +68,30 @@ void UHideFunction::BeginPlay()
 void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
 
-	// ...
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
+	if(CollisionBox->IsOverlappingActor(ActorThatOpens))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Player Overlapping"));
+	}
+	FHitResult Hit;
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*500.f;
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+	DrawDebugLine(GetWorld(), PlayerViewPointLocation, LineTraceEnd, FColor(0,255,0), false, 0.0f,0,5.f);
+	GetWorld()->LineTraceSingleByObjectType(
+			OUT Hit,
+			PlayerViewPointLocation,
+			LineTraceEnd,
+			FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+			TraceParams
+	);
+	UActorComponent* HitActor = Hit.GetComponent();
+	if(HitActor)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("%s has been hit"),*(HitActor->GetName()));
+	}
 }
+
 

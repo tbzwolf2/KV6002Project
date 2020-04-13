@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Components/BoxComponent.h"
+#include "Components/InputComponent.h"
+#include "DrawDebugHelpers.h"
 #include "HideFunction.generated.h"
 
 
@@ -16,6 +19,7 @@ public:
 	// Sets default values for this component's properties
 	UHideFunction();
 	TArray<UStaticMeshComponent*> ListOfMeshes;
+	TArray<UBoxComponent*> ListOfBoxes;
 	UPROPERTY(EditAnywhere)
 	UStaticMesh* MeshTarget;
 protected:
@@ -27,10 +31,18 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	UPROPERTY(EditAnywhere)
+	AActor* ActorThatOpens;
+
+	UBoxComponent* CollisionBox;
+
+
 	FVector InitialLocation;
+
 	float NewX;
 	float NewY;
 	float NewZ;
+
 	UPROPERTY(EditAnywhere)
 	float TranslatorX;
 	UPROPERTY(EditAnywhere)
