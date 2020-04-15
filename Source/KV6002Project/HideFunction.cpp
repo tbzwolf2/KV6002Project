@@ -20,11 +20,47 @@ void UHideFunction::BeginPlay()
 	Super::BeginPlay();
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 
-	FString name = MeshTarget->GetName();
+	
+	
+}
+
+
+// Called every frame
+void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	FVector StartViewPoint;
+	FRotator PlayerViewPointRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT StartViewPoint, OUT PlayerViewPointRotation);
+	
+	FVector EndPoint = StartViewPoint + PlayerViewPointRotation.Vector()*500.f;
+	UE_LOG(LogTemp, Warning, TEXT("Player view point is x:%f , y:%f , z:%f "), EndPoint.X,EndPoint.Y,EndPoint.Z);
+	
+	
+	FHitResult Hit;
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+	DrawDebugLine(GetWorld(), StartViewPoint, EndPoint, FColor(0,255,0), false, 0.0f,0,5.f);
+	GetWorld()->LineTraceSingleByObjectType(
+			OUT Hit,
+			StartViewPoint,
+			EndPoint,
+			FCollisionObjectQueryParams(ECollisionChannel::ECC_Visibility),
+			TraceParams
+	);
+	UActorComponent* HitActor = Hit.GetComponent();
+	if(HitActor)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Nothing has been hit right now"));
+	}
+	
+
+}
+
+//FString name = MeshTarget->GetName();
 	//CollisionBox=GetOwner()->GetAttachActor();
-	GetOwner()->GetComponents(ListOfMeshes);
-	GetOwner()->GetComponents(ListOfBoxes);
-	for(int i = 0;i<ListOfMeshes.Num();i++)
+	//GetOwner()->GetComponents(ListOfMeshes);
+	//GetOwner()->GetComponents(ListOfBoxes);
+	/*for(int i = 0;i<ListOfMeshes.Num();i++)
 		{
 			FString MeshName = ListOfMeshes[i]->GetName();
 			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
@@ -38,7 +74,7 @@ void UHideFunction::BeginPlay()
 				CollisionBox=ListOfBoxes[i];
 			}
 	}
-	/*if(ListOfMeshes[0])
+	if(ListOfMeshes[0])
 	{
 		for(int i = 0;i<2;i++)
 		{
@@ -60,38 +96,8 @@ void UHideFunction::BeginPlay()
 	} 
 	*/
 
-	
-}
-
-
-// Called every frame
-void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	FVector PlayerViewPointLocation;
-	FRotator PlayerViewPointRotation;
-
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
-	if(CollisionBox->IsOverlappingActor(ActorThatOpens))
+/*if(CollisionBox->IsOverlappingActor(ActorThatOpens))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Player Overlapping"));
 	}
-	FHitResult Hit;
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*500.f;
-	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
-	DrawDebugLine(GetWorld(), PlayerViewPointLocation, LineTraceEnd, FColor(0,255,0), false, 0.0f,0,5.f);
-	GetWorld()->LineTraceSingleByObjectType(
-			OUT Hit,
-			PlayerViewPointLocation,
-			LineTraceEnd,
-			FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
-			TraceParams
-	);
-	UActorComponent* HitActor = Hit.GetComponent();
-	if(HitActor)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("%s has been hit"),*(HitActor->GetName()));
-	}
-}
-
-
+	*/
