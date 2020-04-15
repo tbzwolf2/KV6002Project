@@ -42,16 +42,29 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 			FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 			TraceParams
 	);
-	AActor* HitActor = Hit.GetActor();
+	HitActor = Hit.GetActor();
 	if(HitActor)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s has been hit"),*(HitActor->GetName()));
+		//UE_LOG(LogTemp, Warning, TEXT("%s has been hit"),*(HitActor->GetName()));
 	}
 }
 
 void UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab key has been pressed"));
+	if(HitActor){
+		Hider = HitActor->FindComponentByClass<UHideFunction>();
+		//Hider->Tester();
+		UE_LOG(LogTemp, Error, TEXT("Hit a thing"));
+	}
+	if(Hider)
+	{
+		UE_LOG(LogTemp, Error, TEXT("You've only gone and bloddy did it"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Didnt bloody work"));
+	}
 }
 
 void UGrabber::Release()

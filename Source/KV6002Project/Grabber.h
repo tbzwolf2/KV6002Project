@@ -9,6 +9,7 @@
 #include "DrawDebugHelpers.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
+#include "HideFunction.h"
 #include "Grabber.generated.h"
 
 
@@ -23,6 +24,8 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void Grab();
 	void Release();
+	void Update();
+	UHideFunction* Hider;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -33,5 +36,6 @@ private:
 	UInputComponent* InputHandler = nullptr;
 	void CheckPhysicsHandle();
 	void SetupInputComponent();
+	AActor* HitActor;
 	
 };
