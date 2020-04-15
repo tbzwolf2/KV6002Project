@@ -18,10 +18,10 @@ class KV6002PROJECT_API UHideFunction : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UHideFunction();
-	//TArray<UStaticMeshComponent*> ListOfMeshes;
-	//TArray<UBoxComponent*> ListOfBoxes;
-	//UPROPERTY(EditAnywhere)
-	//UStaticMesh* MeshTarget;
+	TArray<UStaticMeshComponent*> ListOfMeshes;
+	TArray<UBoxComponent*> ListOfBoxes;
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* MeshTarget;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -34,7 +34,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
 
-	//UBoxComponent* CollisionBox;
+	UBoxComponent* CollisionBox;
 
 
 	FVector InitialLocation;

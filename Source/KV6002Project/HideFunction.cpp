@@ -29,29 +29,7 @@ void UHideFunction::BeginPlay()
 void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	FVector StartViewPoint;
-	FRotator PlayerViewPointRotation;
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT StartViewPoint, OUT PlayerViewPointRotation);
 	
-	FVector EndPoint = StartViewPoint + PlayerViewPointRotation.Vector()*500.f;
-	UE_LOG(LogTemp, Warning, TEXT("Player view point is x:%f , y:%f , z:%f "), EndPoint.X,EndPoint.Y,EndPoint.Z);
-	
-	
-	FHitResult Hit;
-	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
-	DrawDebugLine(GetWorld(), StartViewPoint, EndPoint, FColor(0,255,0), false, 0.0f,0,5.f);
-	GetWorld()->LineTraceSingleByObjectType(
-			OUT Hit,
-			StartViewPoint,
-			EndPoint,
-			FCollisionObjectQueryParams(ECollisionChannel::ECC_Visibility),
-			TraceParams
-	);
-	UActorComponent* HitActor = Hit.GetComponent();
-	if(HitActor)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Nothing has been hit right now"));
-	}
 	
 
 }
