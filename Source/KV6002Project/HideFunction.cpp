@@ -19,7 +19,7 @@ void UHideFunction::BeginPlay()
 {
 	Super::BeginPlay();
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
-
+	InitialiseObject();
 	
 	
 }
@@ -30,8 +30,32 @@ void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	
 
+}
+
+void UHideFunction::InitialiseObject()
+{
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+	GetOwner()->GetComponents(ListOfMeshes);
+	GetOwner()->GetComponents(ListOfBoxes);
+	if(MeshTarget)
+	{
+		FString name = MeshTarget->GetName();
+	}
+	for(int i = 0;i<ListOfMeshes.Num();i++)
+		{
+			FString MeshName = ListOfMeshes[i]->GetName();
+			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
+		}
+	for(int i = 0;i<ListOfBoxes.Num();i++)
+	{
+		FString SceneName = ListOfBoxes[i]->GetName();
+			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(SceneName));
+			if(SceneName==FString("Box"))
+			{
+				CollisionBox=ListOfBoxes[i];
+			}
+	}
 }
 
 //FString name = MeshTarget->GetName();

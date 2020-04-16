@@ -7,9 +7,8 @@
 #include "Components/BoxComponent.h"
 #include "Components/InputComponent.h"
 #include "DrawDebugHelpers.h"
-#include "HideFunction.generated.h"
-
-
+#include "HideFunction.generated.h"  
+ 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class KV6002PROJECT_API UHideFunction : public UActorComponent
 {
