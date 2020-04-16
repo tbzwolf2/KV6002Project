@@ -32,6 +32,7 @@ protected:
 
 private:
 	float Reach = 120.f;
+	float FrameTime;
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputHandler = nullptr;
 	void CheckPhysicsHandle();

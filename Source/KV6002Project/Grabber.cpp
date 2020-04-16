@@ -27,11 +27,10 @@ void UGrabber::BeginPlay()
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	FrameTime = DeltaTime;
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
-
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
-
 	FHitResult Hit;
 	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*2000.f;
@@ -43,10 +42,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 			TraceParams
 	);
 	HitActor = Hit.GetActor();
-	if(HitActor)
-	{
-		//UE_LOG(LogTemp, Warning, TEXT("%s has been hit"),*(HitActor->GetName()));
-	}
 }
 
 void UGrabber::Grab()
@@ -54,12 +49,12 @@ void UGrabber::Grab()
 	UE_LOG(LogTemp, Warning, TEXT("Grab key has been pressed"));
 	if(HitActor){
 		Hider = HitActor->FindComponentByClass<UHideFunction>();
-		//Hider->Tester();
 		UE_LOG(LogTemp, Error, TEXT("Hit a thing"));
 	}
 	if(Hider)
 	{
 		UE_LOG(LogTemp, Error, TEXT("You've only gone and bloddy did it"));
+		Hider->Hide(FrameTime);
 	}
 	else
 	{
@@ -71,6 +66,8 @@ void UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab key has been released"));
 }
+
+
 
 void UGrabber::CheckPhysicsHandle()
 {

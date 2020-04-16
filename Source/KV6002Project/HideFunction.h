@@ -22,7 +22,7 @@ public:
 	TArray<UBoxComponent*> ListOfBoxes;
 	UPROPERTY(EditAnywhere)
 	UStaticMesh* MeshTarget;
-	void Hide();
+	void Hide(float DeltaTime);
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -45,6 +45,7 @@ private:
 	float NewX;
 	float NewY;
 	float NewZ;
+	float CloseSpeed = 2.0f;
 
 	UPROPERTY(EditAnywhere)
 	float TranslatorX;
@@ -52,7 +53,7 @@ private:
 	float TranslatorY;
 	UPROPERTY(EditAnywhere)
 	float TranslatorZ;
-
+	bool InUse;
 
 		
 };

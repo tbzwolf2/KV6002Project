@@ -29,9 +29,10 @@ void UHideFunction::BeginPlay()
 void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if(CollisionBox->IsOverlappingActor(ActorThatOpens))
+	if(CollisionBox->IsOverlappingActor(ActorThatOpens) && InUse == false)
 	{
-		Hide();
+		//Hide(DeltaTime);
+		InUse=true;
 	}
 
 }
@@ -39,29 +40,34 @@ void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 void UHideFunction::InitialiseObject()
 {
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+	InUse = false;
+
 	GetOwner()->GetComponents(ListOfMeshes);
 	GetOwner()->GetComponents(ListOfBoxes);
+
 	if(MeshTarget)
 	{
 		FString name = MeshTarget->GetName();
 	}
+
 	for(int i = 0;i<ListOfMeshes.Num();i++)
-		{
-			FString MeshName = ListOfMeshes[i]->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
-		}
+	{
+		FString MeshName = ListOfMeshes[i]->GetName();
+		UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
+	}
+
 	for(int i = 0;i<ListOfBoxes.Num();i++)
 	{
 		FString SceneName = ListOfBoxes[i]->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(SceneName));
-			if(SceneName==FString("Box"))
-			{
-				CollisionBox=ListOfBoxes[i];
-			}
+		UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(SceneName));
+		if(SceneName==FString("Box"))
+		{
+			CollisionBox=ListOfBoxes[i];
+		}
 	}
 }
 
-void UHideFunction::Hide()
+void UHideFunction::Hide(float DeltaTime)
 {
 	if(MeshTarget&&ListOfMeshes[0])
 	{
@@ -77,10 +83,10 @@ void UHideFunction::Hide()
 				NewX = InitialLocation.X + TranslatorX;
 				NewY = InitialLocation.Y + TranslatorY;
 				NewZ = InitialLocation.Z + TranslatorZ;
+				FVector TargetLocation(NewX, NewY, NewZ);;
 				UE_LOG(LogTemp,Warning, TEXT("Location of mesh is : %f, %f, %f"), NewX, NewY, NewZ);
-				//NewY = ListOfMeshes[i]->y + TranslatorY;
-				//NewZ = ListOfMeshes[i]->z + TranslatorZ;
-				ListOfMeshes[i]->SetRelativeLocation(FVector(NewX, NewY, NewZ));
+	
+				ListOfMeshes[i]->SetRelativeLocation(TargetLocation);
 			}
 		}
 	} 
