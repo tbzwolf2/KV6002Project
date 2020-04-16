@@ -17,11 +17,13 @@ class KV6002PROJECT_API UHideFunction : public UActorComponent
 
 public:	
 	// Sets default values for this component's properties
+
 	UHideFunction();
 	TArray<UStaticMeshComponent*> ListOfMeshes;
 	TArray<UBoxComponent*> ListOfBoxes;
 	UPROPERTY(EditAnywhere)
 	UStaticMesh* MeshTarget;
+	void Hide();
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -31,6 +33,8 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	void InitialiseObject();
+
 	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
 
