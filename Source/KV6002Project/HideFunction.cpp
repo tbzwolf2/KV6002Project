@@ -29,7 +29,10 @@ void UHideFunction::BeginPlay()
 void UHideFunction::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	
+	if(CollisionBox->IsOverlappingActor(ActorThatOpens))
+	{
+		Hide();
+	}
 
 }
 
@@ -58,26 +61,11 @@ void UHideFunction::InitialiseObject()
 	}
 }
 
-//FString name = MeshTarget->GetName();
-	//CollisionBox=GetOwner()->GetAttachActor();
-	//GetOwner()->GetComponents(ListOfMeshes);
-	//GetOwner()->GetComponents(ListOfBoxes);
-	/*for(int i = 0;i<ListOfMeshes.Num();i++)
-		{
-			FString MeshName = ListOfMeshes[i]->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(MeshName));
-		}
-	for(int i = 0;i<ListOfBoxes.Num();i++)
+void UHideFunction::Hide()
+{
+	if(MeshTarget&&ListOfMeshes[0])
 	{
-		FString SceneName = ListOfBoxes[i]->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("List of meshes include: %s"), *(SceneName));
-			if(SceneName==FString("Box"))
-			{
-				CollisionBox=ListOfBoxes[i];
-			}
-	}
-	if(ListOfMeshes[0])
-	{
+		FString name = MeshTarget->GetName();
 		for(int i = 0;i<2;i++)
 		{
 			name = ListOfMeshes[i]->GetStaticMesh()->GetName();
@@ -96,8 +84,7 @@ void UHideFunction::InitialiseObject()
 			}
 		}
 	} 
-	*/
-
+}
 /*if(CollisionBox->IsOverlappingActor(ActorThatOpens))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Player Overlapping"));
